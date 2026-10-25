@@ -12,3 +12,11 @@ I tried using set interval for the timer/stopwatch but still got nothing
 Not a lot of comments-forgot to
 Only the main/index page and mini projects page have anything on them
 I might add to the site for Terra, might not, but it's a good enough base site for now
+
+HOW TO RUN:
+Open index.html 
+Listen to (or not) the first song
+Click the first link
+Open the second song
+Realise that half the projects don't work
+And it looks nice
