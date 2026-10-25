@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projects</title>
+    <link rel="stylesheet" href="mini_projects.css">
+</head>
+<body>
+<header>
+    <!-- To Store the header elements for access in styling -->
+    <div class="header_container">
+        <h1>Mini Projects</h1>
+    <div class="banner_links">
+        <a href="index.html">Home</a>
+        <a href="animations.html">Animations</a>
+        <a href="animations_ext.html">More animations</a>
+        <a href="about.html">About</a>
+    </div>
+    </div>
+</header>
+<main>
+    <!-- To flexbox/grid for the mini projects -->
+    <div class="main_container">
+        <!-- To flexbox the first two projects in a row -->
+        <div class="first_two">
+        <div class="timer_container">
+            <div class="timer">
+                <!-- User inputs to interact with the projects -->
+                <label>
+                    <input type="number" class="timer_hours" placeholder="0" max="24" min="0" step="1" value="0" maxlength="2">
+                </label>
+                <div class="colon">:</div>
+                <label>
+                    <input type="number" class="timer_minutes" placeholder="0" max="59" min="0" step="1" value="0" maxlength="2">
+                </label>
+            <div class="colon">:</div>
+                <label>
+                    <input type="number" class="timer_seconds" placeholder="0" max="59" min="0" step="1" value="0" maxlength="2">
+                </label>
+            <div class="colon">:</div>
+                <label>
+                    <input type="number" class="timer_milliseconds" placeholder="0" max="999" min="0" step="1" value="0" maxlength="3">
+                </label>
+                <label>
+                    <input type="button" class="timer_start" value="Start">
+                </label>
+            </div>
+            <!-- Shows Users what time unit they're editing -->
+        <div class="timer_label_container">
+            <div class="hours_label">H</div>
+            <div class="colon">:</div>
+            <div class="minutes_label">M</div>
+            <div class="colon">:</div>
+            <div class="seconds_label">S</div>
+            <div class="colon">:</div>
+            <div class="milliseconds_label">ms</div>
+            <label>
+                <input type="button" class="timer_end" value="End">
+            </label>
+        </div>
+        </div>
+        <script src="timer.js"></script>
+        <div class="clock_container">
+            <div class="clock">
+                <!-- Probably should have added labels for time units but this is to store the time -->
+                <div class="clock_hours"></div>
+                <div class="clock_colon">:</div>
+                <div class="clock_minutes"></div>
+                <div class="clock_colon">:</div>
+                <div class="clock_seconds"></div>
+                <div class="clock_colon">:</div>
+                <div class="clock_milliseconds"></div>
+                <script src="clock.js"></script>
+            </div>
+        </div>
+        </div>
+        <div class ="three_four">
+            <div class="stopwatch_container">
+                <div class="stopwatch">
+                    <div class="stopwatch_hours">00</div>
+                    <div class="stopwatch_colon">:</div>
+                    <div class="stopwatch_minutes">00</div>
+                    <div class="stopwatch_colon">:</div>
+                    <div class="stopwatch_seconds">00</div>
+                    <div class="stopwatch_colon">:</div>
+                    <div class="stopwatch_milliseconds">000</div>
+                    <input type="button" class="stopwatch_start" value="Start">
+                </div>
+                <div class="stopwatch_label_container">
+                    <div class="stopwatch_hours_label">H</div>
+                    <div class="stop_colon">:</div>
+                    <div class="stopwatch_minutes_label">M</div>
+                    <div class="stop_colon">:</div>
+                    <div class="stopwatch_seconds_label">s</div>
+                    <div class="stop_colon">:</div>
+                    <div class="stopwatch_milliseconds_label">ms</div>
+                    <input type="button" class="stopwatch_end" value="End">
+                </div>
+                <script src="stopwatch.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg_music">
+        <audio controls autoplay loop>
+            <source src="Personal%20Site%20JS%20Projects.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</main>
+</body>
+</html>
