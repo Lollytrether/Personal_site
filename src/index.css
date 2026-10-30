@@ -82,13 +82,15 @@ h3{
 .top{
     display: grid;
     grid-template-columns: 1fr 2.5fr 1fr;
-    background-color: #006868;
     font-family: 'Cantarell', cursive;
 
 }
 
 .top_text_graphic{
-    padding-left: 1.5rem;
+    
+    background-color: #006868;
+    font-family: 'Cantarell', cursive;
+
 }
 
 .top_text{
@@ -122,13 +124,20 @@ canvas{
 a{
   width: fit-content;
     background-color: #006868;
+    color: white;
 }
 a:hover{
     color: #8ad6d6;
 }
 a:visited{
-    color: #003a93;
+    color: #ffff;
 }
 .middle{
     width: fit-content;
+}
+img{
+    display: block;
+    width: 75%;
+    height: 50%;
+    background-color: white;
 }
