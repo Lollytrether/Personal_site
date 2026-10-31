@@ -1,0 +1,186 @@
+/* Adding Custom fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Life+Savers:wght@400;700;800&family=Over+the+Rainbow&display=swap');
+/* Changing the font, centering it, making the text wider and bold */
+h1{
+    font-family: 'Over the Rainbow', cursive;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    transform: scalex(1.1);
+    font-weight: 100000;
+}
+/*Trying to make the header fit the page without a scroll bar and changing the style */
+.header_container{
+    background-color: #5f0101;
+    padding-top: 1rem;
+    margin-left: -1rem;
+    padding-left: 1rem;
+    margin-right: -1rem;
+    padding-right: 0.45rem;
+    margin-top: -1rem;
+}
+/*Keeping the links on one line, the padding is to make the borders not have gaps */
+a{
+    text-decoration: none;
+    color: #000000;
+    border: #b36e5c 1px solid;
+    padding: 2rem 7.62rem;
+    text-wrap: nowrap;
+    font-family: 'Over the Rainbow', cursive;
+    font-size: 2rem;
+}
+/* More UI stuff */
+a:hover{
+    background-color: #b36e5c;
+}
+
+.banner_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1px;
+    margin-left: -1rem;
+}
+
+.main_container{
+    padding-top: 2rem;
+}
+
+.timer{
+    background-color: #922828;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-left: 4rem;
+    padding: 1rem 2.5rem;
+}
+
+.colon, input{
+    font-size: 3rem;
+
+
+}
+.hours, .minutes, .seconds, .milliseconds{
+    font-family:'Life Savers', cursive;
+
+}
+.timer_label_container{
+    background-color: #922828;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-left: 4rem;
+    padding-left: 1rem;
+    padding-right: 3.5rem;
+}
+
+.timer_label_container>*{
+    font-family: 'Life Savers', cursive;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    margin-left: 1.42rem;
+
+}
+
+input{
+    font-family: 'Life Savers', cursive;
+    letter-spacing: 0.2rem;
+}
+
+.timer_start{
+    margin-left: 1rem;
+}
+
+.timer_end{
+    margin-left: -1.85rem;
+}
+
+.clock{
+    background-color: #922828;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-left: 6rem;
+    padding: 1rem 2.5rem;
+    margin-top: 2rem;
+}
+
+
+.clock_hours, .clock_minutes, .clock_seconds, .clock_milliseconds{
+    font-family: 'Life Savers', cursive;
+    background-color: darkkhaki;
+    font-size: 4rem;
+    color: white;
+}
+
+.clock_colon{
+    font-size: 3rem;
+}
+.first_two{
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover{
+    color: white;
+}
+
+h1:hover{
+    color: #ba5d5d;
+}
+
+input:hover{
+    color: white;
+    background-color: #470000;
+}
+
+.stopwatch_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.stopwatch_container{
+    background-color: #f05d5d;
+    width: fit-content;
+    margin-left: 4rem;
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: row;
+    background-color: #f05d5d;
+    margin-left: 2rem;
+    padding: 1rem 2rem;
+}
+.stopwatch_colon{
+    font-size: 4rem;
+    margin-top: 1.5rem;
+}
+.stopwatch_hours, .stopwatch_minutes, .stopwatch_seconds, .stopwatch_milliseconds{
+    font-family: 'Over the Rainbow', cursive;
+    background-color: antiquewhite;
+    font-size: 4rem;
+}
+
+.stopwatch_label_container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f05d5d;
+    margin-left: 4rem;
+}
+.stopwatch_hours_label, .stopwatch_minutes_label, .stopwatch_seconds_label, .stopwatch_milliseconds_label {
+    font-size: 4rem;
+    font-family: 'Over the Rainbow', cursive;
+    margin-left: 2rem;
+}
+.stop_colon{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+}
+.stopwatch_start, .stopwatch_end{
+    margin-left: 2rem;
+}
+.three_four{
+    margin-top: 2rem;
+}
